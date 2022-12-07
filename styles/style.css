@@ -1,0 +1,12 @@
+
+        /* # is used for id  */
+        /* . is used for classes */
+
+        #Heading{
+            background-color: aqua;
+            color: blue !important ;
+        }
+
+        .navbar{
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+        }

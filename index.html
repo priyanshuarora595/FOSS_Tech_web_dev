@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web dev intro</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div id="Heading" style="color: red;">
+        <h1>Hii Welcome all!</h1>
+        <h2>Hii Welcome all!</h2>
+        <h3>Hii Welcome all!</h3>
+        <h4>Hii Welcome all!</h4>
+        <h5>Hii Welcome all!</h5>
+        <h6>Hii Welcome all!</h6>
+    </div>
+
+    <div>
+        <p>this is a paragraph</p>
+    </div>
+
+    <div>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">WebSiteName</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Page 1</a></li>
+                <li><a href="#">Page 2</a></li>
+                <li><a href="#">Page 3</a></li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+
+    <!-- <form>
+        <label for="username">Username</label>
+        <input type="text" id="usernameInput" name="username" placeholder="enter username" >
+        <br>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="passwordInput" placeholder="enter password">
+
+
+        <input type="radio" name="gender" id="gender">
+
+        <label for="remember_me">Remember me</label>
+        <input type="checkbox" name="remember_me" id="remember" required >
+
+        <button type="reset">Reset</button>
+        <button type="submit">submit</button>
+
+    </form> -->
+
+
+    <form class="navbar"  >
+        <label for="FName">First Name</label>
+        <input type="text" name="FirstName" id="FName" placeholder="Enter your First Name" value="Priyanshu">
+        <br>
+        <br>
+        <label for="LName">Last Name</label>
+        <input type="text" name="LastName" id="LName" placeholder="Enter your Last Name" value="Arora">
+        <br>
+        <br>
+        <input type="radio" name="gender" id="male" value="male">male
+        <input type="radio" name="gender" id="female" value="female">female
+        <input type="radio" name="gender" id="other" value="other">other
+        <!-- <input type="radio" name="gender1" id="other" value="other">other2 -->
+        <br>
+        <br>
+        <label for=""></label>
+        <input type="checkbox" name="car" id="car1" value="lamborghini" >lamborghini <br>
+        <input type="checkbox" name="car2" id="car2" value="BMW" >BMW <br>
+        <input type="checkbox" name="car3" id="car3" value="Mercedes">Mercedes <br>
+        <br>
+        <br>
+        <select name="year" id="grad_year">
+            <option value="1">1st year</option>
+            <option value="2">2nd year</option>
+            <option value="3">3rd year</option>
+            <option value="4">4th year</option>
+        </select>
+        <br>
+        <br>
+        <label for="textarea">desciption : </label><br>
+        <textarea id="description" name="desc_text" rows="4" cols="50">
+        </textarea>
+        <br><br>
+        <label for="browser">Browsers:</label>
+        <input list="browsers" name="browser" id="browser">
+        <datalist id="browsers">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+          </datalist>
+          <input type="button" onclick="alert('hello')" value="Click Me">
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset" >
+          
+        </form>
+
+
+        <ol type="1">
+            <li>apple</li>
+            <li>orange</li>
+            <li>grapes</li>
+            <li>pomegranate</li>
+            <li>pomegranate</li>
+            <li>pomegranate</li>
+            <li>pomegranate</li>
+            <li>pomegranate</li>
+            <li>pomegranate</li>
+            <li>pomegranate</li>
+        </ol>
+        <ol type="A">
+            <li>apple</li>
+            <li>orange</li>
+            <li>grapes</li>
+            <li>pomegranate</li>
+        </ol>
+        <ol type="a">
+            <li>apple</li>
+            <li>orange</li>
+            <li>grapes</li>
+            <li>pomegranate</li>
+        </ol>
+        <ol type="i">
+            <li>apple</li>
+            <li>orange</li>
+            <li>grapes</li>
+            <li>pomegranate</li>
+        </ol>
+        <ol type="I">
+            <li>apple</li>
+            <li>orange</li>
+            <li>grapes</li>
+            <li>pomegranate</li>
+        </ol>
+
+
+
+        <h3>unordered Lists</h3>
+        <ul style="list-style-type:disc;">
+            <li>apple</li>
+            <li>orange</li>
+            <li>grapes</li>
+            <li>pomegranate</li>
+        </ul>
+        <ul style="list-style-type:circle;">
+            <li>apple</li>
+            <li>orange</li>
+            <li>grapes</li>
+            <li>pomegranate</li>
+        </ul>
+        <ul style="list-style-type:square;">
+            <li>apple</li>
+            <li>orange</li>
+            <li>grapes</li>
+            <li>pomegranate</li>
+        </ul>
+        <ul style="list-style-type:none;">
+            <li>apple</li>
+            <li>orange</li>
+            <li>grapes</li>
+            <li>pomegranate</li>
+        </ul>
+
+        <h3>A Description List</h3>
+    <dl>
+        <dt>Coffee</dt>
+            <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+            <dd>- white cold drink</dd>
+            <dd>- white cold drink</dd>
+            <dd>- white cold drink</dd>
+    </dl>
+
+
+
+    <h2>Tables</h2>
+    <table style="width: 100%;" border="1px solid black">
+    <!-- <table style="width: 100%;" > -->
+        <tr>
+            <th >Name</th>
+            <th>Second name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Priyanshu</td>
+            <td>Arora</td>
+            <td>info.priyanshuarora@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Naman</td>
+            <td >Sharma</td>
+            <td>info.namansharma@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Rohit</td>
+            <td>Sharma</td>
+            <td>info.rohitsharma@gmail.com</td>
+        </tr>
+    </table>
+
+    <img src="https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="a random image" height="400px" width="30%" title="Beautiful image" >
+
+
+</body>
+</html>
